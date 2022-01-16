@@ -6,10 +6,17 @@ import Create from './pages/create/Create';
 import Search from './pages/search/Search';
 import Recipe from './pages/recipe/Recipe';
 
+// styles
 import './App.css';
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <div className="App">
+      <BrowserRouter>
+        <Switch></Switch>
+      </BrowserRouter>
+    </div>
+  );
 }
 
 export default App;
