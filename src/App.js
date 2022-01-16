@@ -20,6 +20,12 @@ function App() {
           <Route path="/create">
             <Create />
           </Route>
+          <Route path="/recipe">
+            <Recipe />
+          </Route>
+          <Route path="">
+            <Search />
+          </Route>
         </Switch>
       </BrowserRouter>
     </div>
