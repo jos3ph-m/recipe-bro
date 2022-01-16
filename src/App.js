@@ -20,11 +20,11 @@ function App() {
           <Route path="/create">
             <Create />
           </Route>
-          <Route path="/recipe">
-            <Recipe />
-          </Route>
           <Route path="/search">
             <Search />
+          </Route>
+          <Route path="/recipes/:id">
+            <Recipe />
           </Route>
         </Switch>
       </BrowserRouter>
