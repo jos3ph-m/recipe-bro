@@ -23,7 +23,7 @@ function App() {
           <Route path="/recipe">
             <Recipe />
           </Route>
-          <Route path="">
+          <Route path="/search">
             <Search />
           </Route>
         </Switch>
