@@ -13,7 +13,9 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <Switch></Switch>
+        <Switch>
+          <Home />
+        </Switch>
       </BrowserRouter>
     </div>
   );
