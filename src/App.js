@@ -1,4 +1,7 @@
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
+
+// page components
+
 import './App.css';
 
 function App() {
