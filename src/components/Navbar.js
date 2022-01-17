@@ -7,7 +7,9 @@ export default function Navbar() {
   return (
     <div className="navbar">
       <nav>
-        <Link></Link>
+        <Link>
+          <h1>Recipe Bro</h1>
+        </Link>
       </nav>
     </div>
   );
