@@ -10,6 +10,7 @@ export default function Navbar() {
         <Link to="/">
           <h1>Recipe Bro</h1>
         </Link>
+        <Link to="/create">Create Recipe</Link>
       </nav>
     </div>
   );
