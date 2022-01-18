@@ -17,4 +17,5 @@
 .navbar a:last-child {
   color: #fff;
   text-decoration: none;
+  margin-left: 40px;
 }
