@@ -11,4 +11,6 @@
 }
 .navbar a.brand {
   margin-right: auto;
+  color: #fff;
+  text-decoration: none;
 }
