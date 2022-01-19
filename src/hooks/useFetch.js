@@ -21,7 +21,13 @@ export const useFetch = (url) => {
         setIsPending(false);
         setData(data);
         setError(null);
-      } catch (err) {}
+      } catch (err) {
+        if (err.name === 'AbortError') {
+          console.log('the fetch was aborted');
+        } else {
+          setIsPending(false);
+        }
+      }
     };
   });
 };
