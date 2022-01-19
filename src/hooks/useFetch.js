@@ -10,6 +10,9 @@ export const useFetch = (url) => {
 
     const fetchData = async () => {
       setIsPending(true);
+
+      try {
+      } catch (err) {}
     };
   });
 };
