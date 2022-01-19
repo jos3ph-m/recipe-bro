@@ -9,7 +9,9 @@ export default function Home() {
     <div className="home">
       {error && <p className="error">{error}</p>}
       {isPending && <p className="loading">Loading...</p>}
-      {data && data.map()}
+      {data && data.map(recipe => (
+        <h2>{recipe.title}</h2>
+      )}
     </div>
   );
 }
