@@ -8,6 +8,8 @@ export const useFetch = (url) => {
   useEffect(() => {
     const controller = new AbortController();
 
-    const fetchData = async () => {};
+    const fetchData = async () => {
+      setIsPending(true);
+    };
   });
 };
