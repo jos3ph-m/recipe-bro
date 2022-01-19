@@ -26,8 +26,14 @@ export const useFetch = (url) => {
           console.log('the fetch was aborted');
         } else {
           setIsPending(false);
+          setError('Could not fetch data');
         }
       }
     };
-  });
+    fetchData();
+    return () => {
+      controller.abort();
+    };
+  }, [url]);
+  return { data, isPending, error };
 };
