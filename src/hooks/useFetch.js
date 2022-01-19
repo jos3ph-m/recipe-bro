@@ -20,6 +20,7 @@ export const useFetch = (url) => {
 
         setIsPending(false);
         setData(data);
+        setError(null);
       } catch (err) {}
     };
   });
