@@ -4,5 +4,6 @@ import { useFetch } from '../../hooks/useFetch';
 import './Home.css';
 
 export default function Home() {
+  const { data, isPending, error } = useFetch();
   return <div>Home</div>;
 }
