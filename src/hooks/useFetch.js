@@ -13,6 +13,9 @@ export const useFetch = (url) => {
 
       try {
         const res = await fetch(url, { signal: controller.signal });
+        if (!res.ok) {
+          throw new Error(res.statusText);
+        }
       } catch (err) {}
     };
   });
