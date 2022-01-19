@@ -12,6 +12,7 @@ export const useFetch = (url) => {
       setIsPending(true);
 
       try {
+        const res = await fetch(url, { signal: controller.signal });
       } catch (err) {}
     };
   });
