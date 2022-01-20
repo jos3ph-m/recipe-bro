@@ -1,6 +1,6 @@
 // styles
 import './RecipeList.css';
 
-export default function RecipeList() {
+export default function RecipeList({ recipes }) {
   return <div></div>;
 }
