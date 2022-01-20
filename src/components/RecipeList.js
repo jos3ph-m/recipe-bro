@@ -5,7 +5,9 @@ export default function RecipeList({ recipes }) {
   return (
     <div className="recipe-list">
       {recipes.map((recipe) => (
-        <div key={recipe.id} className="card"></div>
+        <div key={recipe.id} className="card">
+          <h3>{recipe.title}</h3>
+        </div>
       ))}
     </div>
   );
