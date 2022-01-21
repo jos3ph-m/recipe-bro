@@ -8,7 +8,7 @@ export default function RecipeList({ recipes }) {
         <div key={recipe.id} className="card">
           <h3>{recipe.title}</h3>
           <p>{recipe.cookingTime} to make.</p>
-          <div></div>
+          <div>{recipe.title}</div>
         </div>
       ))}
     </div>
