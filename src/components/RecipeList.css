@@ -33,4 +33,6 @@
 }
 .recipe-list .card a {
   color: #555;
+  text-decoration: none;
+  display: block;
 }
