@@ -14,9 +14,9 @@
   transition: all 0.3s ease;
   position: relative;
 }
-.recipe-list .card:hover {
-  transform: rotate(3deg);
-}
+/* .recipe-list .card:hover {
+  transform: rotate(5deg);
+} */
 .recipe-list .card h3 {
   color: #555;
   margin-bottom: 6px;
