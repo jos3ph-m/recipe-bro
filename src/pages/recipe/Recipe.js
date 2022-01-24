@@ -10,5 +10,5 @@ export default function Recipe() {
 
   const { error, isPending, data: recipe } = useFetch(url);
 
-  return <div>Recipe</div>;
+  return <div className="recipe">Recipe</div>;
 }
