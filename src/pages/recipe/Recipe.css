@@ -20,3 +20,5 @@
 .recipe li::after {
   content: ',';
 }
+.recipe li:last-child::after {
+}
