@@ -6,3 +6,6 @@
   padding: 40px;
   box-sizing: border-box;
 }
+.recipe ul {
+  display: flex;
+}
