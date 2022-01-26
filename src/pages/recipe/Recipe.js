@@ -17,6 +17,7 @@ export default function Recipe() {
       {recipe && (
         <>
           <h2 className="page-title">{recipe.title}</h2>
+          <p></p>
         </>
       )}
     </div>
