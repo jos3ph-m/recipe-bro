@@ -17,7 +17,7 @@ export default function Recipe() {
       {recipe && (
         <>
           <h2 className="page-title">{recipe.title}</h2>
-          <p>Takes {} to make</p>
+          <p>Takes {recipe.cookingTime} to make</p>
         </>
       )}
     </div>
