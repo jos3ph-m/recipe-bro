@@ -23,7 +23,7 @@ export default function Recipe() {
               <li key={ing}>{ing}</li>
             ))}
           </ul>
-          <p></p>
+          <p className="method"></p>
         </>
       )}
     </div>
