@@ -9,4 +9,5 @@
 .recipe ul {
   display: flex;
   padding: 0;
+  justify-content: center;
 }
