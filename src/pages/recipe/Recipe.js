@@ -16,7 +16,7 @@ export default function Recipe() {
       {isPending && <p className="loading">Loading...</p>}
       {recipe && (
         <>
-          <h2 className="page-title">{}</h2>
+          <h2 className="page-title">{recipe.title}</h2>
         </>
       )}
     </div>
