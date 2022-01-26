@@ -18,6 +18,7 @@ export default function Recipe() {
         <>
           <h2 className="page-title">{recipe.title}</h2>
           <p>Takes {recipe.cookingTime} to cook.</p>
+          <ul></ul>
         </>
       )}
     </div>
