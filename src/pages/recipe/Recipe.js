@@ -14,7 +14,7 @@ export default function Recipe() {
     <div className="recipe">
       {error && <p className="error">{error}</p>}
       {isPending && <p className="loading">Loading...</p>}
-      {recipe && <h1>{recipe.title}</h1>}
+      {recipe && ()}
     </div>
   );
 }
