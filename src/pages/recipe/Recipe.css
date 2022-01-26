@@ -23,3 +23,6 @@
 .recipe li:last-child::after {
   content: '.';
 }
+.method {
+  text-align: left;
+}
