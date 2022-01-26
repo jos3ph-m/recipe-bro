@@ -21,4 +21,5 @@
   content: ',';
 }
 .recipe li:last-child::after {
+  content: '.';
 }
