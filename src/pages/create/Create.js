@@ -11,7 +11,9 @@ export default function Create() {
   return (
     <div className="create">
       <h2 className="page-title">Add a New Recipe</h2>
-      <form></form>
+      <form>
+        <label></label>
+      </form>
     </div>
   );
 }
