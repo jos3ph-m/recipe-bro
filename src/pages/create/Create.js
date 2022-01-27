@@ -14,7 +14,7 @@ export default function Create() {
       <form>
         <label>
           <span>Recipe title:</span>
-          <input type="text" />
+          <input type="text" onChange={(e) => setTitle(e.target.value)} />
         </label>
       </form>
     </div>
