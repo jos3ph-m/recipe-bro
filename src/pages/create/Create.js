@@ -14,6 +14,7 @@ export default function Create() {
       <form>
         <label>
           <span>Recipe title:</span>
+          <input type="text" />
         </label>
       </form>
     </div>
