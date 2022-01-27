@@ -8,5 +8,5 @@ export default function Create() {
   const [method, setMethod] = useState('');
   const [cookingTime, setCookingTime] = useState('');
 
-  return <div>Create</div>;
+  return <div className="create">Create</div>;
 }
