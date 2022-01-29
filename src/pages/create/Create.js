@@ -17,7 +17,6 @@ export default function Create() {
           <input
             type="text"
             onChange={(e) => setTitle(e.target.value)}
-            value={title}
             required
           />
         </label>
