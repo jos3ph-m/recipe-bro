@@ -18,7 +18,6 @@ export default function Create() {
             type="text"
             onChange={(e) => setTitle(e.target.value)}
             value={title}
-            required
           />
         </label>
       </form>
