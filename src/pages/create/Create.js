@@ -22,7 +22,7 @@ export default function Create() {
           />
         </label>
         <label>
-          <span></span>
+          <span>Recipe method:</span>
         </label>
       </form>
     </div>
