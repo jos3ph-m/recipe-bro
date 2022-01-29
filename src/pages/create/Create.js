@@ -30,7 +30,11 @@ export default function Create() {
           />
         </label>
         <label>
-          <span>Cooking time(minutes):</span>
+          <span>Cooking time (minutes):</span>
+          <input
+            type="number"
+            onChange={(e) => setCookingTime(e.target.value)}
+          />
         </label>
       </form>
     </div>
