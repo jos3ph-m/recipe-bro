@@ -34,6 +34,7 @@ export default function Create() {
           <input
             type="number"
             onChange={(e) => setCookingTime(e.target.value)}
+            value={cookingTime}
           />
         </label>
       </form>
