@@ -11,7 +11,7 @@ export default function Create() {
   return (
     <div className="create">
       <h2 className="page-title">Add a New Recipe</h2>
-      <form>
+      <form onSubmit={handleSubmit}>
         <label>
           <span>Recipe title:</span>
           <input
@@ -38,7 +38,7 @@ export default function Create() {
             required
           />
         </label>
-        <button className="btn"></button>
+        <button className="btn">submit</button>
       </form>
     </div>
   );
