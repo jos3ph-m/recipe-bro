@@ -29,6 +29,9 @@ export default function Create() {
             required
           />
         </label>
+        <label>
+          <span>Cooking time(minutes):</span>
+        </label>
       </form>
     </div>
   );
