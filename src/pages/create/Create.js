@@ -23,7 +23,7 @@ export default function Create() {
         </label>
         <label>
           <span>Recipe method:</span>
-          <textarea onChange={(e) => setTitle(e)} />
+          <textarea onChange={(e) => setTitle(e.target.value)} />
         </label>
       </form>
     </div>
