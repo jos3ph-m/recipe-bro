@@ -30,7 +30,7 @@ export default function Create() {
         <label>
           <span>Recipe method:</span>
           <textarea
-            onChange={(e) => setTitle(e.target.value)}
+            onChange={(e) => setMethod(e.target.value)}
             value={method}
             required
           />
