@@ -28,6 +28,7 @@ export default function Create() {
         </label>
         <label>
           <span>Recipe ingredients:</span>
+          <div></div>
         </label>
         <label>
           <span>Recipe method:</span>
