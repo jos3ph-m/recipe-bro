@@ -30,6 +30,7 @@ export default function Create() {
           <span>Recipe ingredients:</span>
           <div className="ingredients">
             <input type="text" />
+            <button className="btn"></button>
           </div>
         </label>
         <label>
