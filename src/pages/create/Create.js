@@ -26,7 +26,9 @@ export default function Create() {
             required
           />
         </label>
-        <label></label>
+        <label>
+          <span></span>
+        </label>
         <label>
           <span>Recipe method:</span>
           <textarea
