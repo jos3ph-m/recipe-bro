@@ -17,13 +17,13 @@ export default function Create() {
 
   const handleAdd = (e) => {
     e.preventDefault();
-    const ing = newIngredient.trim()
+    const ing = newIngredient.trim();
 
-    if(ing && !ingredients.includes(ing)) {
-      setIngredients(prevIngredients => [...prevIngredients, ing])
+    if (ing && !ingredients.includes(ing)) {
+      setIngredients((prevIngredients) => [...prevIngredients, ing]);
     }
-    setNewIngredient("")
-  }
+    setNewIngredient('');
+  };
 
   return (
     <div className="create">
@@ -46,7 +46,9 @@ export default function Create() {
               onChange={(e) => setNewIngredient(e.target.value)}
               value={newIngredient}
             />
-            <button onClick={} className="btn">add</button>
+            <button onClick={handleAdd} className="btn">
+              add
+            </button>
           </div>
         </label>
         <label>
