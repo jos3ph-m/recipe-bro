@@ -15,8 +15,8 @@ export default function Create() {
     console.log(title, method, cookingTime);
   };
 
-  const handleAdd = () => {
-    
+  const handleAdd = (e) => {
+    e.preventDefault();
   }
 
   return (
