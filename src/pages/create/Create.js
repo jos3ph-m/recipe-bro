@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 
 //styles
 import './Create.css';
@@ -9,6 +9,7 @@ export default function Create() {
   const [cookingTime, setCookingTime] = useState('');
   const [newIngredient, setNewIngredient] = useState('');
   const [ingredients, setIngredients] = useState([]);
+  const ingredientInput = useRef(null);
 
   const handleSubmit = (e) => {
     e.preventDefault();
