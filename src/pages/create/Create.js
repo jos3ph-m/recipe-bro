@@ -31,7 +31,7 @@ export default function Create() {
         <label>
           <span>Recipe ingredients:</span>
           <div className="ingredients">
-            <input type="text" />
+            <input type="text" onChange={} />
             <button className="btn">add</button>
           </div>
         </label>
