@@ -22,6 +22,7 @@ export default function Create() {
     if(ing && !ingredients.includes(ing)) {
       setIngredients(prevIngredients => [...prevIngredients, ing])
     }
+    setNewIngredient("")
   }
 
   return (
