@@ -18,6 +18,8 @@ export default function Create() {
   const handleAdd = (e) => {
     e.preventDefault();
     const ing = newIngredient.trim()
+
+    if(ing && !ingredients.includes(ing))
   }
 
   return (
