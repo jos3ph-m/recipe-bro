@@ -34,6 +34,7 @@ export default function Create() {
             <input
               type="text"
               onChange={(e) => setNewIngredient(e.target.value)}
+              value={newIngredient}
             />
             <button className="btn">add</button>
           </div>
