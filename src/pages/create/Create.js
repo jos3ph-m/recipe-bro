@@ -19,7 +19,9 @@ export default function Create() {
     e.preventDefault();
     const ing = newIngredient.trim()
 
-    if(ing && !ingredients.includes(ing))
+    if(ing && !ingredients.includes(ing)) {
+      setIngredients(prevIngredients => [...prevIngredients, newIngredient])
+    }
   }
 
   return (
