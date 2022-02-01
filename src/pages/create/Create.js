@@ -15,6 +15,10 @@ export default function Create() {
     console.log(title, method, cookingTime);
   };
 
+  const handleAdd = () => {
+    
+  }
+
   return (
     <div className="create">
       <h2 className="page-title">Add a New Recipe</h2>
@@ -36,7 +40,7 @@ export default function Create() {
               onChange={(e) => setNewIngredient(e.target.value)}
               value={newIngredient}
             />
-            <button className="btn">add</button>
+            <button onClick={} className="btn">add</button>
           </div>
         </label>
         <label>
