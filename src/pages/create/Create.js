@@ -31,7 +31,10 @@ export default function Create() {
         <label>
           <span>Recipe ingredients:</span>
           <div className="ingredients">
-            <input type="text" onChange={} />
+            <input
+              type="text"
+              onChange={(e) => setNewIngredient(e.target.value)}
+            />
             <button className="btn">add</button>
           </div>
         </label>
