@@ -7,7 +7,9 @@ export const useFetch = (url, method = 'GET') => {
   const [options, setOptions] = useState(null);
 
   const postData = (postData) => {
-    setOptions();
+    setOptions({
+      method: 'POST',
+    });
   };
 
   useEffect(() => {
