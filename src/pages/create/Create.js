@@ -54,7 +54,7 @@ export default function Create() {
             </button>
           </div>
         </label>
-        <p></p>
+        <p>Current ingredients: {}</p>
         <label>
           <span>Recipe method:</span>
           <textarea
