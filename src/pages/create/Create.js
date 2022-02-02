@@ -46,6 +46,7 @@ export default function Create() {
               type="text"
               onChange={(e) => setNewIngredient(e.target.value)}
               value={newIngredient}
+              ref={ingredientInput}
             />
             <button onClick={handleAdd} className="btn">
               add
