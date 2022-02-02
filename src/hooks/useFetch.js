@@ -5,6 +5,8 @@ export const useFetch = (url, method = 'GET') => {
   const [isPending, setIsPending] = useState(false);
   const [error, setError] = useState(null);
 
+  const postData = (postData) => {};
+
   useEffect(() => {
     const controller = new AbortController();
 
