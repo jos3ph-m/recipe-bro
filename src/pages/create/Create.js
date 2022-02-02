@@ -24,6 +24,7 @@ export default function Create() {
       setIngredients((prevIngredients) => [...prevIngredients, ing]);
     }
     setNewIngredient('');
+    ingredientInput.current.focus();
   };
 
   return (
