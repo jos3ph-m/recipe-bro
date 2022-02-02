@@ -6,7 +6,9 @@ export const useFetch = (url, method = 'GET') => {
   const [error, setError] = useState(null);
   const [options, setOptions] = useState(null);
 
-  const postData = (postData) => {};
+  const postData = (postData) => {
+    setOptions();
+  };
 
   useEffect(() => {
     const controller = new AbortController();
