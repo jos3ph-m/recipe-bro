@@ -54,7 +54,12 @@ export default function Create() {
             </button>
           </div>
         </label>
-        <p>Current ingredients: {ingredients.map()}</p>
+        <p>
+          Current ingredients:{' '}
+          {ingredients.map((i) => (
+            <em></em>
+          ))}
+        </p>
         <label>
           <span>Recipe method:</span>
           <textarea
