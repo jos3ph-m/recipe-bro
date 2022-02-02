@@ -57,7 +57,7 @@ export default function Create() {
         <p>
           Current ingredients:{' '}
           {ingredients.map((i) => (
-            <em></em>
+            <em>{i}</em>
           ))}
         </p>
         <label>
