@@ -19,7 +19,7 @@ export default function Create() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    postData();
+    postData({ title, ingredients, method, cookingTime });
   };
 
   const handleAdd = (e) => {
