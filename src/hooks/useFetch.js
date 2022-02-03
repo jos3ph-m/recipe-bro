@@ -41,7 +41,7 @@ export const useFetch = (url, method = 'GET') => {
         }
       }
     };
-    fetchData();
+
     return () => {
       controller.abort();
     };
