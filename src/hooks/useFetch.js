@@ -19,7 +19,7 @@ export const useFetch = (url, method = 'GET') => {
   useEffect(() => {
     const controller = new AbortController();
 
-    const fetchData = async () => {
+    const fetchData = async (fetchOptions) => {
       setIsPending(true);
 
       try {
