@@ -42,7 +42,11 @@ export default function Create() {
   };
 
   // redirect the user when we get data response
-  useEffect(() => {}, [data]);
+  useEffect(() => {
+    if (data) {
+      history.push('/');
+    }
+  }, [data]);
 
   return (
     <div className="create">
