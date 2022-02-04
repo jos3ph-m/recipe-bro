@@ -40,7 +40,10 @@ export default function Create() {
   };
 
   // redirect the user when we get data response
-  useEffect(() => {}, []);
+  useEffect(() => {
+    if (data) {
+    }
+  }, [data]);
 
   return (
     <div className="create">
