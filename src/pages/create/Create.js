@@ -44,6 +44,7 @@ export default function Create() {
   // redirect the user when we get data response
   useEffect(() => {
     if (data) {
+      history.push('/');
     }
   }, [data]);
 
