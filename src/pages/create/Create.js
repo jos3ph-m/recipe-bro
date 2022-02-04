@@ -1,4 +1,5 @@
 import { useState, useRef } from 'react';
+import { useEffect } from 'react/cjs/react.development';
 import { useFetch } from '../../hooks/useFetch';
 
 //styles
@@ -39,6 +40,7 @@ export default function Create() {
   };
 
   // redirect the user when we get data response
+  useEffect(() => {}, []);
 
   return (
     <div className="create">
