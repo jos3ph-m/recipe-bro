@@ -42,6 +42,7 @@ export default function Create() {
   };
 
   // redirect the user when we get data response
+  useEffect(() => {}, [data]);
 
   return (
     <div className="create">
