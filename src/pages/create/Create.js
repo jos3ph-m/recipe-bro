@@ -38,6 +38,8 @@ export default function Create() {
     ingredientInput.current.focus();
   };
 
+  // redirect the user when we get data response
+
   return (
     <div className="create">
       <h2 className="page-title">Add a New Recipe</h2>
