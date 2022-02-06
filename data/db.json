@@ -48,6 +48,22 @@
       "method": "blah blah blah",
       "cookingTime": "35 minutes",
       "id": "OQ50Q1n"
+    },
+    {
+      "title": "nachos",
+      "ingredients": [
+        "beef",
+        "cheese",
+        "chips",
+        "beans",
+        "sour cream",
+        "avocado",
+        "lemon",
+        "salt"
+      ],
+      "method": "you cook beef and then put it with beans and cheese on the chips and make it nachos",
+      "cookingTime": "40 minutes",
+      "id": "n9obUxY"
     }
   ]
 }
