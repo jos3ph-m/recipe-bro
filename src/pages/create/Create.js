@@ -42,7 +42,7 @@ export default function Create() {
   };
 
   // redirect the user when we get data response
-  useEffect(() => {}, []);
+  useEffect(() => {}, [data]);
   // if there is a change in data direct user back to home page
 
   return (
