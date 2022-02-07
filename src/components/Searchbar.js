@@ -1,9 +1,14 @@
+import React, { useState } from 'react';
+
 // import
 import './Searchbar.css';
 
-import React from 'react';
+
 
 export default function Searchbar() {
+  const [term, setTerm] = useState
+
+
   return (
     <div className="searchbar">
       <form onSubmit={}>
