@@ -45,6 +45,7 @@ export default function Create() {
   useEffect(() => {
     // if there is a change in data direct user back to home page
     if (data) {
+      history.push('/');
     }
   }, [data]);
 
