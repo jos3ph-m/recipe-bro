@@ -3,10 +3,8 @@ import React, { useState } from 'react';
 // import
 import './Searchbar.css';
 
-
-
 export default function Searchbar() {
-  const [term, setTerm] = useState
+  const [term, setTerm] = useState('')
 
 
   return (
