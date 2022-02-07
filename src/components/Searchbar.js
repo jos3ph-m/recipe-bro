@@ -11,7 +11,7 @@ export default function Searchbar() {
     <div className="searchbar">
       <form onSubmit={}>
         <label htmlFor="search">Search:</label>
-        <input type="text" id="search" onChange={(e) => setTerm(e.target.value)} />
+        <input type="text" id="search" onChange={(e) => setTerm(e.target.value)} required/>
       </form>
     </div>
   );
