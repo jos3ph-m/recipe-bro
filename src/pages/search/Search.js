@@ -1,5 +1,5 @@
 import { useLocation } from 'react-router-dom';
-import { useFetch } from '../../hooks';
+import { useFetch } from '../../hooks/useFetch';
 
 //styles
 import './Search.css';
