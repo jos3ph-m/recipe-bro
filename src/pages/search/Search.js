@@ -4,6 +4,9 @@ import { useFetch } from '../../hooks/useFetch';
 //styles
 import './Search.css';
 
+// components
+import RecipeList from '../../components/RecipeList';
+
 export default function Search() {
   const queryString = useLocation();
   const queryParams = new URLSearchParams(queryString);
@@ -17,6 +20,7 @@ export default function Search() {
       <h2 className="page-title">Recipes including "{query}"</h2>
       {error && <p className="error">{error}</p>}
       {isPending && <p className="loading">Loading...</p>}
+      {data && <RecipeList recipes={data} />}
     </div>
   );
 }
