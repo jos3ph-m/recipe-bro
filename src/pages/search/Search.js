@@ -10,6 +10,11 @@ export default function Search() {
   const query = queryParams.get('q');
 
   const url = `http://localhost:3000/recipes?q=${query}`;
+  const { error, isPending, data } = useFetch(url);
 
-  return <div>Search</div>;
+  return (
+    <div>
+      <h2 className="page-title">Recipes including "{query}"</h2>
+    </div>
+  );
 }
