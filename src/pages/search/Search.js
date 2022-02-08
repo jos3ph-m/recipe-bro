@@ -15,7 +15,7 @@ export default function Search() {
   return (
     <div>
       <h2 className="page-title">Recipes including "{query}"</h2>
-      {error}
+      {error && <p className="error">{error}</p>}
     </div>
   );
 }
