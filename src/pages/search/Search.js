@@ -16,6 +16,7 @@ export default function Search() {
     <div>
       <h2 className="page-title">Recipes including "{query}"</h2>
       {error && <p className="error">{error}</p>}
+      {isPending}
     </div>
   );
 }
