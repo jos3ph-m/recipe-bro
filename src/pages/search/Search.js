@@ -5,5 +5,7 @@ import './Search.css';
 
 export default function Search() {
   const queryString = useLocation();
+  const queryParams = new URLSearchParams(queryString);
+
   return <div>Search</div>;
 }
