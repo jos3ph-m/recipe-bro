@@ -5,7 +5,7 @@ import './RecipeList.css';
 
 export default function RecipeList({ recipes }) {
   // check if recipe list is empty
-  if (recipes.length < 1) {
+  if (recipes.length === 0) {
   }
 
   return (
