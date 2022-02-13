@@ -2,4 +2,4 @@ import { createContext } from 'react';
 
 export const ThemeContext = createContext();
 
-<ThemeContext.Provider />;
+export function ThemeProvider() {}
