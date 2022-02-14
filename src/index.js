@@ -6,9 +6,7 @@ import { ThemeContext } from './context/ThemeContext';
 
 ReactDOM.render(
   <React.StrictMode>
-    <ThemeContext.Provider value={{ color: 'blue' }}>
-      <App />
-    </ThemeContext.Provider>
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
