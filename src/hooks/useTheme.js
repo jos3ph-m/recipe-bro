@@ -3,4 +3,9 @@ import { ThemeContext } from '../context/ThemeContext';
 
 export const useTheme = () => {
   const context = useContext(ThemeContext);
+
+  if (context === undefined) {
+  }
+
+  return context;
 };
