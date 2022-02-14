@@ -8,7 +8,7 @@ import './Navbar.css';
 import Searchbar from './Searchbar';
 
 export default function Navbar() {
-  const {} = useContext(ThemeContext);
+  const { color } = useContext(ThemeContext);
   return (
     <div className="navbar">
       <nav>
