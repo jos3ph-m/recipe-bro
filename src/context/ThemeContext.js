@@ -2,4 +2,4 @@ import { createContext } from 'react';
 
 export const ThemeContext = createContext();
 
-export function ThemeProvider() {}
+export function ThemeProvider({ children }) {}
