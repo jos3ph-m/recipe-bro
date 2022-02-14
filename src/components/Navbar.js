@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { useContext } from 'react';
 
 // styles
 import './Navbar.css';
