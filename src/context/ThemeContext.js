@@ -2,7 +2,12 @@ import { createContext, useReducer } from 'react';
 
 export const ThemeContext = createContext();
 
-const themeReducer = () => {};
+const themeReducer = (state, action) => {
+  switch (action.type) {
+    case 'CHANGE_COLOR':
+      return { ...state, color: action.payload };
+  }
+};
 
 export function ThemeProvider({ children }) {
   const [state, dispatch] = useReducer(themeReducer, {
