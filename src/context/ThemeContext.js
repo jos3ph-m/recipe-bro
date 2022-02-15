@@ -21,7 +21,7 @@ export function ThemeProvider({ children }) {
   };
 
   return (
-    <ThemeContext.Provider value={{ color: 'darkslategray' }}>
+    <ThemeContext.Provider value={{ ...state, changeColor }}>
       {children}
     </ThemeContext.Provider>
   );
