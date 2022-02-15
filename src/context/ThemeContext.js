@@ -9,7 +9,7 @@ export function ThemeProvider({ children }) {
     color: 'darkslategray',
   });
   const changeColor = (color) => {
-    dispatch({ type: 'CHANGE_COLOR', payload: {} });
+    dispatch({ type: 'CHANGE_COLOR', payload: color });
   };
   return (
     <ThemeContext.Provider value={{ color: 'darkslategray' }}>
