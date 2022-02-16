@@ -12,7 +12,7 @@ export default function Navbar() {
 
   return (
     <div className="navbar" style={{ background: color }}>
-      <nav onClick={}>
+      <nav onClick={() => changeColor()}>
         <Link to="/" className="brand">
           <h1>Recipe Bro</h1>
         </Link>
