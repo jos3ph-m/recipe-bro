@@ -1,3 +1,5 @@
+import { useTheme } from '../hooks/useTheme';
+
 // styles
 import './ThemeSelector.css';
 
