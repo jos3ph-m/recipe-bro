@@ -4,5 +4,6 @@ import { useTheme } from '../hooks/useTheme';
 import './ThemeSelector.css';
 
 export default function ThemeSelector() {
+  const { changeColor } = useTheme();
   return <div></div>;
 }
