@@ -4,7 +4,7 @@ import { useTheme } from '../hooks/useTheme';
 import './ThemeSelector.css';
 
 // swatches
-const themeColor = ['#58249c'];
+const themeColor = ['#58249c', '#249c6b'];
 
 export default function ThemeSelector() {
   const { changeColor } = useTheme();
