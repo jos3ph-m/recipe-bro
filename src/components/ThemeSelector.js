@@ -5,5 +5,5 @@ import './ThemeSelector.css';
 
 export default function ThemeSelector() {
   const { changeColor } = useTheme();
-  return <div></div>;
+  return <div className="theme-selector"></div>;
 }
