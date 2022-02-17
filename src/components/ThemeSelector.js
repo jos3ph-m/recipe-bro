@@ -11,13 +11,13 @@ export default function ThemeSelector() {
   return (
     <div className="theme-selector">
       <div className="theme-buttons">
-        {themeColors.map((color) => {
+        {themeColors.map((color) => (
           <div
             key={color}
             onClick={() => changeColor(color)}
             style={{ background: color }}
-          />;
-        })}
+          />
+        ))}
       </div>
     </div>
   );
