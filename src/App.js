@@ -9,12 +9,14 @@ import Recipe from './pages/recipe/Recipe';
 
 // styles
 import './App.css';
+import ThemeSelector from './components/ThemeSelector';
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
         <Navbar />
+        <ThemeSelector />
         <Switch>
           <Route exact path="/">
             <Home />
