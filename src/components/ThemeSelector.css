@@ -6,4 +6,6 @@
   margin: 20px auto;
 }
 .theme-buttons div {
+  display: inline-block;
+  width: 20px;
 }
