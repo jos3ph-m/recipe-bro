@@ -6,10 +6,10 @@ import Home from './pages/home/Home';
 import Create from './pages/create/Create';
 import Search from './pages/search/Search';
 import Recipe from './pages/recipe/Recipe';
+import ThemeSelector from './components/ThemeSelector';
 
 // styles
 import './App.css';
-import ThemeSelector from './components/ThemeSelector';
 
 function App() {
   return (
