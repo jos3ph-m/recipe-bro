@@ -1,4 +1,6 @@
 .theme-selector {
+  display: flex;
+  justify-content: flex-end;
 }
 .theme-buttons div {
 }
