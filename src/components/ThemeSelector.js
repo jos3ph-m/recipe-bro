@@ -1,4 +1,5 @@
 import { useTheme } from '../hooks/useTheme';
+import modeIcon from '../assets/mode-icon.svg';
 
 // styles
 import './ThemeSelector.css';
@@ -17,7 +18,9 @@ export default function ThemeSelector() {
   const { changeColor } = useTheme();
   return (
     <div className="theme-selector">
-      <div className="mode-toggle"></div>
+      <div className="mode-toggle">
+        <img src="" alt="" />
+      </div>
       <div className="theme-buttons">
         {themeColors.map((color) => (
           <div
