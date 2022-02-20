@@ -16,10 +16,13 @@ const themeColors = [
 
 export default function ThemeSelector() {
   const { changeColor } = useTheme();
+
+  const toggleMode = () => {};
+
   return (
     <div className="theme-selector">
       <div className="mode-toggle">
-        <img onClick={toggle} src={modeIcon} />
+        <img onClick={toggleMode} src={modeIcon} />
       </div>
       <div className="theme-buttons">
         {themeColors.map((color) => (
