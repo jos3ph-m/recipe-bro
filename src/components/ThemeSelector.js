@@ -19,7 +19,7 @@ export default function ThemeSelector() {
   return (
     <div className="theme-selector">
       <div className="mode-toggle">
-        <img src="" alt="" />
+        <img src={modeIcon} />
       </div>
       <div className="theme-buttons">
         {themeColors.map((color) => (
