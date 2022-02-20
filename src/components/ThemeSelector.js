@@ -15,7 +15,7 @@ const themeColors = [
 ];
 
 export default function ThemeSelector() {
-  const { changeColor } = useTheme();
+  const { changeColor, changeMode, mode } = useTheme();
 
   const toggleMode = () => {};
 
