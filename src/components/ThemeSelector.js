@@ -17,6 +17,7 @@ export default function ThemeSelector() {
   const { changeColor } = useTheme();
   return (
     <div className="theme-selector">
+      <div className="mode-toggle" />
       <div className="theme-buttons">
         {themeColors.map((color) => (
           <div
