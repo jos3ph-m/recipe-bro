@@ -16,3 +16,6 @@
 .mode-toggle {
   margin-right: auto;
 }
+.mode-toggle img {
+  width: 24px;
+}
