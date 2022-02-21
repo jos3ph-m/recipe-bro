@@ -8,7 +8,7 @@ import './ThemeSelector.css';
 const themeColors = [
   '#58249c',
   '#249c6b',
-  
+  '#9f2020',
   '#9f9620',
   '#a7bcb9',
   '#4a5352',
