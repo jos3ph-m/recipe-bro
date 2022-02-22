@@ -28,3 +28,6 @@
   line-height: 1.5em;
 }
 /* dark mode */
+.recipe.dark {
+  background: #555;
+}
