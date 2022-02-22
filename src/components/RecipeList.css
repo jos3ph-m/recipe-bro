@@ -44,3 +44,6 @@
   margin: 20px auto 0;
 }
 /* dark mode */
+.recipe-list .card.dark {
+  background: #555;
+}
