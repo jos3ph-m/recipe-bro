@@ -47,3 +47,6 @@
 .recipe-list .card.dark {
   background: #555;
 }
+.recipe-list .card.dark p {
+  color: #e4e4e4;
+}
