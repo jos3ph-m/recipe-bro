@@ -5,7 +5,7 @@ import modeIcon from '../assets/mode-icon.svg';
 import './ThemeSelector.css';
 
 // swatches
-const themeColors = ['#58249c', '#9f9620'];
+const themeColors = ['#58249c', '#249c6b', '#9f9620'];
 
 export default function ThemeSelector() {
   const { changeColor, changeMode, mode } = useTheme();
