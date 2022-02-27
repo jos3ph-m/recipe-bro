@@ -1,4 +1,6 @@
 import firebase from 'firebase/app';
 import 'firebase/firestore';
 
-const firebaseConfig = {};
+const firebaseConfig = {
+  authDomain: 'recipe-bro-site.firebaseapp.com',
+};
