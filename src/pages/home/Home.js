@@ -15,7 +15,10 @@ export default function Home() {
   useEffect(() => {
     setIsPending(true);
 
-    projectFirestore.collection('recipes').get().then();
+    projectFirestore
+      .collection('recipes')
+      .get()
+      .then((snapshot) => {});
   }, []);
 
   return (
