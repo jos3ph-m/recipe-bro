@@ -12,3 +12,5 @@ const firebaseConfig = {
 
 // init firebase
 firebase.initializeApp(firebaseConfig);
+
+// init services
