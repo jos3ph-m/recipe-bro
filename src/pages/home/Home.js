@@ -19,7 +19,8 @@ export default function Home() {
       .collection('recipes')
       .get()
       .then((snapshot) => {
-        console.log(snapshot);
+        if (snapshot.empty) {
+        }
       });
   }, []);
 
