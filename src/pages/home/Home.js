@@ -12,7 +12,9 @@ export default function Home() {
   const [isPending, setIsPending] = useState(false);
   const [error, setError] = useState(false);
 
-  useEffect(() => {}, []);
+  useEffect(() => {
+    setIsPending(true);
+  }, []);
 
   return (
     <div className="home">
