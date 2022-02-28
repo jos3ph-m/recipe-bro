@@ -21,6 +21,7 @@ export default function Home() {
       .then((snapshot) => {
         if (snapshot.empty) {
           setError('No recipes to load');
+          setIsPending(false);
         }
       });
   }, []);
