@@ -28,6 +28,7 @@ export default function Home() {
             results.push({ id: doc.id, ...doc.data() });
           });
           setData(results);
+          setIsPending(false);
         }
       });
   }, []);
