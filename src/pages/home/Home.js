@@ -24,6 +24,9 @@ export default function Home() {
           setIsPending(false);
         } else {
           let results = [];
+          snapshot.docs.forEach((doc) => {
+            results.push({ id: doc.id, ...doc.data() });
+          });
         }
       });
   }, []);
