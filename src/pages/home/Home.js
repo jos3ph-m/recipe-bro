@@ -20,6 +20,7 @@ export default function Home() {
       .get()
       .then((snapshot) => {
         if (snapshot.empty) {
+          setError('No recipes to load');
         }
       });
   }, []);
