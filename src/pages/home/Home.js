@@ -18,7 +18,9 @@ export default function Home() {
     projectFirestore
       .collection('recipes')
       .get()
-      .then((snapshot) => {});
+      .then((snapshot) => {
+        console.log(snapshot);
+      });
   }, []);
 
   return (
