@@ -8,9 +8,11 @@ import './Home.css';
 import RecipeList from '../../components/RecipeList';
 
 export default function Home() {
-  useEffect(() => {
-    const [data, setData] = useState(null);
-  }, []);
+  const [data, setData] = useState(null);
+  const [isPending, setIsPending] = useState(false);
+  const [error, setError] = useState(false);
+
+  useEffect(() => {}, []);
 
   return (
     <div className="home">
