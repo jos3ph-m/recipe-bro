@@ -1,4 +1,5 @@
 import { projectFirestore } from '../../firebase/config';
+import { useEffect } from 'react';
 
 //styles
 import './Home.css';
@@ -7,6 +8,8 @@ import './Home.css';
 import RecipeList from '../../components/RecipeList';
 
 export default function Home() {
+  useEffect(() => {}, []);
+
   return (
     <div className="home">
       {error && <p className="error">{error}</p>}
