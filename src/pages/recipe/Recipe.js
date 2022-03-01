@@ -13,7 +13,9 @@ export default function Recipe() {
   const [isPending, setIsPending] = useState(false);
   const [error, setError] = useState(false);
 
-  useEffect(() => {}, []);
+  useEffect(() => {
+    setIsPending(true);
+  }, []);
 
   return (
     <div className={`recipe ${mode}`}>
