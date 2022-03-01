@@ -1,5 +1,5 @@
+import { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import { useFetch } from '../../hooks/useFetch';
 import { useTheme } from '../../hooks/useTheme';
 
 //styles
@@ -12,6 +12,8 @@ export default function Recipe() {
   const [data, setData] = useState(null);
   const [isPending, setIsPending] = useState(false);
   const [error, setError] = useState(false);
+
+  useEffect;
 
   return (
     <div className={`recipe ${mode}`}>
