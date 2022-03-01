@@ -13,7 +13,7 @@ export default function Recipe() {
   const [isPending, setIsPending] = useState(false);
   const [error, setError] = useState(false);
 
-  useEffect;
+  useEffect();
 
   return (
     <div className={`recipe ${mode}`}>
