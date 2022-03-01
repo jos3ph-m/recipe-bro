@@ -30,6 +30,9 @@ export default function Home() {
           setData(results);
           setIsPending(false);
         }
+      })
+      .catch((err) => {
+        setError(err.message);
       });
   }, []);
 
