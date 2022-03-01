@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { useTheme } from '../../hooks/useTheme';
 import { projectFirestore } from '../../firebase/config';
@@ -10,7 +10,7 @@ export default function Recipe() {
   const { id } = useParams();
   const { mode } = useTheme();
 
-  const [data, setData] = useState(null);
+  const [recipe, setRecipe] = useState(null);
   const [isPending, setIsPending] = useState(false);
   const [error, setError] = useState(false);
 
@@ -20,7 +20,7 @@ export default function Recipe() {
       .collection('recipes')
       .doc(id)
       .get()
-      .then(() => {
+      .then((doc) => {
         console.log(doc);
       });
   }, []);
