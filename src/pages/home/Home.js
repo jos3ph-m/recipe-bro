@@ -33,6 +33,7 @@ export default function Home() {
       })
       .catch((err) => {
         setError(err.message);
+        setIsPending(false);
       });
   }, []);
 
