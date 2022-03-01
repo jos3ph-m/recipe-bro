@@ -7,8 +7,6 @@ import './Recipe.css';
 
 export default function Recipe() {
   const { id } = useParams();
-
-  const { error, isPending, data: recipe } = useFetch(url);
   const { mode } = useTheme();
 
   return (
