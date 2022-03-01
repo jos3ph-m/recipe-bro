@@ -16,7 +16,13 @@ export default function Recipe() {
 
   useEffect(() => {
     setIsPending(true);
-    projectFirestore.collection('recipes').doc(id).get().then();
+    projectFirestore
+      .collection('recipes')
+      .doc(id)
+      .get()
+      .then(() => {
+        console.log(doc);
+      });
   }, []);
 
   return (
