@@ -9,6 +9,10 @@ export default function Recipe() {
   const { id } = useParams();
   const { mode } = useTheme();
 
+  const [data, setData] = useState(null);
+  const [isPending, setIsPending] = useState(false);
+  const [error, setError] = useState(false);
+
   return (
     <div className={`recipe ${mode}`}>
       {error && <p className="error">{error}</p>}
