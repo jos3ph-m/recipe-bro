@@ -20,7 +20,10 @@ export default function Recipe() {
       .collection('recipes')
       .doc(id)
       .get()
-      .then((doc) => {});
+      .then((doc) => {
+        if (doc.exists) {
+        }
+      });
   }, []);
 
   return (
