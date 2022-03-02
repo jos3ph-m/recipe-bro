@@ -23,6 +23,8 @@ export default function Create() {
       method,
       cookingTime: cookingTime + ' minutes',
     };
+
+    projectFirestore.collection('recipes').add(doc);
   };
 
   const handleAdd = (e) => {
