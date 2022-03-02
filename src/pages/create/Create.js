@@ -1,6 +1,7 @@
 import { useState, useRef } from 'react';
 import { useEffect } from 'react/cjs/react.development';
 import { useHistory } from 'react-router-dom';
+import { projectFirestore } from '../../firebase/config';
 
 //styles
 import './Create.css';
