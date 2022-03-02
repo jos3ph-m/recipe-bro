@@ -29,7 +29,7 @@ export default function Recipe() {
           setError('Could not find that recipe');
         }
       });
-  }, []);
+  }, [id]);
 
   return (
     <div className={`recipe ${mode}`}>
