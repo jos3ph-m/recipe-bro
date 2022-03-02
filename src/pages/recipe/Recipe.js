@@ -24,6 +24,8 @@ export default function Recipe() {
         if (doc.exists) {
           setIsPending(false);
           setRecipe(doc.data());
+        } else {
+          setIsPending(false);
         }
       });
   }, []);
