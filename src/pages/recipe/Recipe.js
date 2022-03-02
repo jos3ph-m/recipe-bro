@@ -22,6 +22,7 @@ export default function Recipe() {
       .get()
       .then((doc) => {
         if (doc.exists) {
+          setIsPending(false);
         }
       });
   }, []);
