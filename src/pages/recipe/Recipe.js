@@ -20,9 +20,7 @@ export default function Recipe() {
       .collection('recipes')
       .doc(id)
       .get()
-      .then((doc) => {
-        console.log(doc);
-      });
+      .then((doc) => {});
   }, []);
 
   return (
