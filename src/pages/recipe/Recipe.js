@@ -26,6 +26,7 @@ export default function Recipe() {
           setRecipe(doc.data());
         } else {
           setIsPending(false);
+          setError('Recipe does not exist');
         }
       });
   }, []);
