@@ -17,12 +17,12 @@ export default function Create() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    postData({
+    const doc = {
       title,
       ingredients,
       method,
       cookingTime: cookingTime + ' minutes',
-    });
+    };
   };
 
   const handleAdd = (e) => {
