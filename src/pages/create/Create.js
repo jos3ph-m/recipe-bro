@@ -42,14 +42,6 @@ export default function Create() {
     ingredientInput.current.focus();
   };
 
-  // redirect the user when we get data response
-  useEffect(() => {
-    // if there is a change in data direct user back to home page
-    if (data) {
-      history.push('/');
-    }
-  }, [data]);
-
   return (
     <div className="create">
       <h2 className="page-title">Add a New Recipe</h2>
