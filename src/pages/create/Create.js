@@ -25,7 +25,9 @@ export default function Create() {
     };
     try {
       projectFirestore.collection('recipes').add(doc);
-    } catch (error) {}
+    } catch (error) {
+      console.log(err);
+    }
   };
 
   const handleAdd = (e) => {
