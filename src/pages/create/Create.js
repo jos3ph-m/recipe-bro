@@ -26,7 +26,7 @@ export default function Create() {
     try {
       await projectFirestore.collection('recipes').add(doc);
       history.push('/');
-    } catch (error) {
+    } catch (err) {
       console.log(err);
     }
   };
