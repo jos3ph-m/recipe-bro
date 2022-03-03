@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useTheme } from '../hooks/useTheme';
+import DeleteIcon from '../assets/delete-icon.svg';
 
 // styles
 import './RecipeList.css';
