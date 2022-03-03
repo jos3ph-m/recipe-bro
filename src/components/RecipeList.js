@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { useTheme } from '../hooks/useTheme';
 import DeleteIcon from '../assets/delete-icon.svg';
+import { projectFirestore } from '../firebase/config';
 
 // styles
 import './RecipeList.css';
