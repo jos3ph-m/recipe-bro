@@ -13,7 +13,9 @@ export default function RecipeList({ recipes }) {
     return <div className="error">No recipes to load...</div>;
   }
 
-  const handleClick = (id) => {};
+  const handleClick = (id) => {
+    projectFirestore.collection('recipes').doc(id).delete();
+  };
 
   return (
     <div className="recipe-list">
