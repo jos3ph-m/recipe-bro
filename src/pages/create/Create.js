@@ -15,7 +15,7 @@ export default function Create() {
   const ingredientInput = useRef(null);
   const history = useHistory();
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     const doc = {
       title,
@@ -24,7 +24,7 @@ export default function Create() {
       cookingTime: cookingTime + ' minutes',
     };
     try {
-      projectFirestore.collection('recipes').add(doc);
+      await projectFirestore.collection('recipes').add(doc);
     } catch (error) {
       console.log(err);
     }
