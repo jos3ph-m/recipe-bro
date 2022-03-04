@@ -43,6 +43,8 @@
   border-radius: 4px;
   margin: 20px auto 0;
 }
+.delete {
+}
 /* dark mode */
 .recipe-list .card.dark {
   background: #555;
