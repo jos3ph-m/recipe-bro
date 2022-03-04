@@ -44,6 +44,7 @@
   margin: 20px auto 0;
 }
 .delete {
+  position: absolute;
 }
 /* dark mode */
 .recipe-list .card.dark {
