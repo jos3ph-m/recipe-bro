@@ -15,26 +15,19 @@ export default function Home() {
   useEffect(() => {
     setIsPending(true);
 
-    projectFirestore
-      .collection('recipes')
-      .get()
-      .then((snapshot) => {
-        if (snapshot.empty) {
-          setError('No recipes to load');
-          setIsPending(false);
-        } else {
-          let results = [];
-          snapshot.docs.forEach((doc) => {
-            results.push({ id: doc.id, ...doc.data() });
-          });
-          setData(results);
-          setIsPending(false);
-        }
-      })
-      .catch((err) => {
-        setError(err.message);
+    projectFirestore.collection('recipes').onSnapshot((snapshot) => {
+      if (snapshot.empty) {
+        setError('No recipes to load');
         setIsPending(false);
-      });
+      } else {
+        let results = [];
+        snapshot.docs.forEach((doc) => {
+          results.push({ id: doc.id, ...doc.data() });
+        });
+        setData(results);
+        setIsPending(false);
+      }
+    });
   }, []);
 
   return (
