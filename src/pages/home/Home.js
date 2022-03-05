@@ -34,6 +34,8 @@ export default function Home() {
         setIsPending(false);
       }
     );
+
+    return () => unsub();
   }, []);
 
   return (
