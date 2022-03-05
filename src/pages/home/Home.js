@@ -15,7 +15,7 @@ export default function Home() {
   useEffect(() => {
     setIsPending(true);
 
-    projectFirestore.collection('recipes').onSnapshot(
+    const unsub = projectFirestore.collection('recipes').onSnapshot(
       (snapshot) => {
         if (snapshot.empty) {
           setError('No recipes to load');
