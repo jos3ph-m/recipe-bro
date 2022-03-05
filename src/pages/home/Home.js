@@ -29,7 +29,9 @@ export default function Home() {
           setIsPending(false);
         }
       },
-      (err) => {}
+      (err) => {
+        setError(err.message);
+      }
     );
   }, []);
 
