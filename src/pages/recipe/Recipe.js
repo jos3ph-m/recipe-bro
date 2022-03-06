@@ -31,6 +31,8 @@ export default function Recipe() {
       });
   }, [id]);
 
+  const handleClick = () => {};
+
   return (
     <div className={`recipe ${mode}`}>
       {error && <p className="error">{error}</p>}
