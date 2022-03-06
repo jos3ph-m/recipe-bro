@@ -32,7 +32,7 @@ export default function Recipe() {
   }, [id]);
 
   const handleClick = () => {
-    projectFirestore.collection('recipes').doc(id);
+    projectFirestore.collection('recipes').doc(id).update({});
   };
 
   return (
