@@ -45,7 +45,7 @@ export default function Recipe() {
             ))}
           </ul>
           <p className="method">{recipe.method}</p>
-          <button onClick={}>Update me</button>
+          <button onClick={handleClick}>Update me</button>
         </>
       )}
     </div>
