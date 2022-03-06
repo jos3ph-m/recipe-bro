@@ -45,6 +45,7 @@ export default function Recipe() {
             ))}
           </ul>
           <p className="method">{recipe.method}</p>
+          <button></button>
         </>
       )}
     </div>
