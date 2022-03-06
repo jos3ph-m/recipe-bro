@@ -31,7 +31,9 @@ export default function Recipe() {
       });
   }, [id]);
 
-  const handleClick = () => {};
+  const handleClick = () => {
+    projectFirestore.collection('recipes').doc(id);
+  };
 
   return (
     <div className={`recipe ${mode}`}>
