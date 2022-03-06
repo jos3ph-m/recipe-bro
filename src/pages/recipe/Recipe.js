@@ -16,7 +16,7 @@ export default function Recipe() {
 
   useEffect(() => {
     setIsPending(true);
-    projectFirestore
+    const unsub = projectFirestore
       .collection('recipes')
       .doc(id)
       .onSnapshot((doc) => {
