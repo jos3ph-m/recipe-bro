@@ -52,7 +52,7 @@ export default function Recipe() {
             ))}
           </ul>
           <p className="method">{recipe.method}</p>
-          <button onClick={handleClick}>Now the title is something else</button>
+          <button onClick={handleClick}>Updated</button>
         </>
       )}
     </div>
